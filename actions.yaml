@@ -84,3 +84,5 @@ blacklist-remove-disk:
         Example: '/dev/vdb /var/tmp/test-osd'
   required:
     - osd-devices
+show-bcache-devices:
+  description: Shows the bcache caching & backing devices as well as their status
